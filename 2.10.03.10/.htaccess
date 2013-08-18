@@ -1,0 +1,42 @@
+RewriteEngine On
+RewriteBase /
+Options +FollowSymLinks -Multiviews
+
+# Rules to ensure that normal content gets through
+RewriteRule themes/(.*) themes/$1 [L]
+RewriteRule themes/images/(.*) themes/images/$1 [L]
+RewriteRule images/(.*) images/$1 [L]
+
+# General
+RewriteRule ^login$ index.php?p=login [QSA,L]
+RewriteRule ^login/$ index.php?p=login [QSA,L]
+RewriteRule ^logout$ index.php?p=logout [QSA,L]
+RewriteRule ^logout/$ index.php?p=logout [QSA,L]
+RewriteRule ^register$ index.php?p=register [QSA,L]
+RewriteRule ^register/$ index.php?p=register [QSA,L]
+RewriteRule ^memberlist$ index.php?p=memberlist [QSA,L]
+RewriteRule ^memberlist/$ index.php?p=memberlist [QSA,L]
+
+# Admin Panel
+RewriteRule ^admin$ index.php?p=admin [QSA,L]
+RewriteRule ^admin/$ index.php?p=admin [QSA,L]
+RewriteRule ^admin/([a-z0-9]+)$ index.php?p=admin&s=$1 [QSA,L]
+RewriteRule ^admin/([a-z0-9]+)/$ index.php?p=admin&s=$1 [QSA,L]
+
+# View Forum
+RewriteRule ^viewforum$ index.php?p=viewforum [QSA,L]
+RewriteRule ^viewforum/$ index.php?p=viewforum [QSA,L]
+RewriteRule ^viewforum/([a-z0-9]+)$ index.php?p=viewforum&id=$1 [QSA,L]
+RewriteRule ^viewforum/([a-z0-9]+)/$ index.php?p=viewforum&id=$1 [QSA,L]
+
+# View Topic
+RewriteRule ^viewtopic$ index.php?p=viewtopic [QSA,L]
+RewriteRule ^viewtopic/$ index.php?p=viewtopic [QSA,L]
+RewriteRule ^viewtopic/([a-z0-9]+)$ index.php?p=viewtopic&id=$1 [QSA,L]
+RewriteRule ^viewtopic/([a-z0-9]+)/$ index.php?p=viewtopic&id=$1 [QSA,L]
+
+# Search
+RewriteRule ^viewtopic$ index.php?p=viewtopic [QSA,L]
+RewriteRule ^viewtopic/$ index.php?p=viewtopic [QSA,L]
+RewriteRule ^viewtopic/([a-z0-9]+)$ index.php?p=viewtopic&id=$1 [QSA,L]
+RewriteRule ^viewtopic/([a-z0-9]+)/$ index.php?p=viewtopic&id=$1 [QSA,L]

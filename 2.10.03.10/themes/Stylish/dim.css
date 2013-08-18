@@ -1,0 +1,604 @@
+/*==========================================================
+// Dimensions for SSForum Stylesheet
+//
+// Column Names Naming Convention
+// example: row1 on the main page
+// name: MR1Column1
+// explanation: M(ain Page) R(ow)1 Column1
+==========================================================*/
+title1 {
+	text-align: left;
+}
+/*==============================
+	Layout 
+==============================*/
+
+.lastvisit {
+	width: 786px;
+}
+
+.lastvisitwidth {
+	width: 776px;
+}
+
+/*============================================
+// Border style dimensions
+============================================*/
+
+.forumborder {	 
+	border: 1px solid #000;
+	padding: 0; 
+	width: 796px;
+}
+
+/*index.php*/
+.MForumBorder { 
+	border: 1px solid #000;
+	padding: 0; 
+	width: 796px;	
+}
+
+/*join.php*/
+.JForumBorder { 
+	border: 1px solid #000;
+	padding: 0; 
+	width: 796px;	
+}
+
+/*login.php*/
+.LForumBorder { 
+	border: 1px solid #000;
+	padding: 0; 
+	width: 300px;	
+}
+
+/*memberlist.php*/
+.MLForumBorder { 
+	border: 1px solid #000;
+	padding: 0; 
+	width: 796px;	
+}
+
+/*privmsgs.php*/
+.PMNavForumBorder { 
+	border: 1px solid #000;
+	padding: 0; 
+	width: 120px;	
+}
+
+.PMInboxForumBorder { 
+	border: 1px solid #000;
+	padding: 0; 
+	width: 600px;	
+}
+
+.PMMsgForumBorder { 
+	border: 1px solid #000;
+	padding: 0; 
+	width: 600px;	
+}
+
+/*profile.php*/
+.PChangeAvatarForumBorder { 
+	border: 1px solid #000;
+	padding: 0; 
+	width: 796px;	
+}
+
+.PForumWidth { 
+	padding: 0; 
+	width: 796px;	
+}
+
+.PForumBorder { 
+	border: 1px solid #000;
+	padding: 0; 
+	width: 796px;	
+}
+
+.PForumColumn1Border, .PForumColumn2Border { 
+	border: 1px solid #000;
+	padding: 0; 
+	width: 398px;	
+}
+
+.PChangeInfoForumBorder { 
+	border: 1px solid #000;
+	padding: 0; 
+	width: 796px;	
+}
+
+/*search.php*/
+.SForumBorder { 
+	border: 1px solid #000;
+	padding: 0; 
+	width: 796px;	
+}
+
+.SResultsForumBorder { 
+	border: 1px solid #000;
+	padding: 0; 
+	width: 796px;	
+}
+
+/*useronline.php and users_viewing_page() function*/
+.UOnlineForumBorder { 
+	border: 1px solid #000;
+	padding: 0; 
+	width: 796px;	
+}
+
+/*viewforum.php*/
+.VForumForumWidth { 
+	padding: 0; 
+	width: 796px;	
+}
+
+.VForumForumBorder { 
+	border: 1px solid #000;
+	padding: 0; 
+	width: 796px;	
+}
+
+/*viewtopiv.php*/
+.VTopicForumWidth { 
+	padding: 0; 
+	width: 796px;	
+}
+
+.VTopicForumBorder { 
+	border: 1px solid #000;
+	padding: 0; 
+	width: 796px;	
+}
+
+/*header.php*/
+.PMessagePopUpForumBorder {
+	border: 1px solid #000;
+	width: 796px;
+}
+
+/*footer.php*/
+
+#footer-leftcol {
+	width: 50%;
+	height: 20px;
+	line-height: 20px;
+	padding: 2px 0px 2px 4px;
+	float: left;
+	text-align: left;
+}
+
+#footer-rightcol {
+	width: 49%;
+	height: 20px;
+	line-height: 20px;
+	padding: 2px 4px 2px 0;
+	text-align: right;
+	float: right;
+}
+
+/*install.php*/
+.IForumBorder {
+	border: 1px solid #000;
+	width: 796px;
+}
+
+/*============================================
+// Basic style dimensions
+============================================*/
+.title {
+	border: 0;
+	padding: 5px;
+	text-align: left;	
+}
+
+.title1 { 
+	height:27px; 
+	line-height:27px;
+	border-top:1px solid #656B78;
+	border-right:0px none; 
+	border-bottom:1px solid #656B78;
+	border-left:0px none;  
+	padding-left:5px; 
+	padding-right:5px
+	text-align: left;	
+}
+
+.row1 {
+	padding-top:2px; 
+	padding-right:3px;
+	padding-bottom:2px;
+	padding-left:3px; 
+	text-align: left;
+}
+
+.row2 {
+	padding-top:2px; 
+	padding-right:3px;
+	padding-bottom:2px;
+	padding-left:3px; 
+	text-align: left;
+}
+
+.title2 {
+	text-align: left;	
+}
+
+.wo { width:		1px; }
+.wa { width:		100%; }
+.al { text-align:	left; }
+.ar { text-align:	right; }
+.ac { text-align:	center; }
+.vb { vertical-align:	bottom; }
+.vt { vertical-align:	top; }
+.vm { vertical-align:	middle; }
+.nw { white-space: 	nowrap; }
+.fb { font-weight:	bold; }
+
+.center {
+	margin: 0px auto;
+}
+
+/*============================================
+// Main page column dimensions
+============================================*/
+th.MPT2Column1, td.MPR1Column1 {
+	/*width: 34px;*/
+	padding: 1px;
+	text-align: center;
+}
+
+th.MPT2Column2, td.MPR1Column2 {
+	/*width: 346px;*/
+	padding: 1px;
+	text-align: left;
+}
+
+th.MPT2Column3, td.MPR1Column3 {
+	width: 40px;
+	padding: 1px;
+	text-align: center; 
+}
+
+th.MPT2Column4, td.MPR1Column4 {
+	width: 40px;
+	padding: 1px;
+	text-align: center;
+}
+
+th.MPT2Column5, td.MPR1Column5 {
+	width: 140px;
+	padding: 1px;
+	text-align: left;
+}
+
+/*============================================
+// Join Page column dimensions
+============================================*/
+.JT1 {
+	text-align: left;	
+}
+
+.JT2Column1 {
+	width: 348px;
+	text-align: left;
+	padding: 2px;
+}
+
+.JT2Notification {
+	width: 100%;
+	text-align: center;
+	padding: 2px;
+}
+
+.JT2divider {
+	width: 100%;
+	display: none;
+	padding: 0px;
+	height: 2px;
+}
+
+.JR1Column1 {
+	width: 448px;
+	text-align: left;
+	padding: 2px;
+}
+
+/*============================================
+// Login page column dimensions
+============================================*/
+.LR1Column1 {
+	width: 150px;
+	text-align: center;
+}
+
+.LR1Column2 {
+	width: 150px;
+	text-align: left;
+}
+
+.LR2Column1 {
+	width: 150px;
+	text-align: center;
+}
+
+.LR2Column2 {
+	width: 150px;
+	text-align: left;
+}
+
+.LT2Divider {
+	width: 100%;
+	display: none;
+	padding: 0px;
+	height: 2px;
+}
+
+/*============================================
+// Memberlist column dimensions
+============================================*/
+.MLT2Column1, .MLR1Column1 {
+	width: 200px;
+	text-align: left;
+}
+
+.MLT2Column2, .MLR1Column2 {
+	width: 200px;
+	text-align: left;
+}
+
+.MLT2Column3, .MLR1Column3 {
+	width: 198px;
+	text-align: left; 
+}
+
+.MLT2Column4, .MLR1Column4 {
+	width: 198px;
+	text-align: left;
+}
+
+/*============================================
+// Private Messages column dimensions
+============================================*/
+.PMNavList {
+	text-align: left;
+}
+
+.PMT2MsgColumn1, .PMR1MsgColumn1 {
+	width: 25%;
+	text-align: center;
+}
+
+.PMT2MsgColumn2, .PMR1MsgColumn2 {
+	width: 50%;
+	text-align: left;
+}
+
+.PMR1MsgColumn2-3 {
+	width: 75%;
+	text-align: left;
+}
+
+.PMT2MsgColumn3, .PMR1MsgColumn3 {
+	width: 25%;
+	text-align: center; 
+}
+
+.PMT2Column1, .PMR1Column1 {
+	width: 30px;
+	text-align: center;
+}
+
+.PMT2Column2, .PMR1Column2 {
+	width: 34px;
+	text-align: left;
+}
+
+.PMT2Column3, .PMR1Column3 {
+	width: 376px;
+	text-align: left; 
+}
+
+.PMT2Column4, .PMR1Column4 {
+	width: 80px;
+	text-align: center;
+}
+
+.PMT2Column5, .PMR1Column5 {
+	width: 80px;
+	text-align: center;
+}
+
+/*============================================
+// Profile Page column dimensions
+============================================*/
+.PVPT1 {
+	text-align: left;	
+}
+
+.PForumWidthColumn1, .PForumWidthColumn2 { 
+	width: 50%;	
+	text-align: left;
+}
+
+.PVPT2Column1 {
+	width: 30%;
+	text-align: left;
+	padding: 2px 4px;
+}
+
+.PVPR1Column1 {
+	width: 70%;
+	text-align: left;
+	padding: 2px 4px;
+}
+
+.PChangeInfoT1 {
+	text-align: left;	
+}
+
+.PChangeInfoT2Column1 {
+	width: 250px;
+	text-align: left;
+	padding: 2px;
+}
+
+.PChangeInfoT2Notification {
+	width: 100%;
+	text-align: center;
+	padding: 2px;
+}
+
+.PChangeInfoT2divider {
+	width: 100%;
+	display: none;
+	padding: 0px;
+	height: 2px;
+}
+
+.PChangeInfoR1Column1 {
+	width: 150px;
+	text-align: left;
+	padding: 2px;
+}
+
+/*============================================
+// Search Page column dimensions
+============================================*/
+.SResultsT1 {
+	text-align: left;	
+}
+
+.SResultsT2Column1, .SResultsR1Column1 {
+	width: 34px;
+	text-align: center;
+}
+
+.SResultsT2Column2, .SResultsR1Column2 {
+	width: 34px;
+	text-align: center;
+}
+
+.SResultsT2Column3, .SResultsR1Column3 {
+	width: 272px;
+	text-align: left; 
+}
+
+.SResultsT2Column4, .SResultsR1Column4 {
+	width: 40px;
+	text-align: center;
+}
+
+.SResultsT2Column5, .SResultsR1Column5 {
+	width: 40px;
+	text-align: center;
+}
+
+.SResultsT2Column6, .SResultsR1Column6 {
+	width: 40px;
+	text-align: center;
+}
+
+.SResultsT2Column7, .SResultsR1Column7 {
+	width: 140px;
+	text-align: left;
+}
+
+.SR1Column1 {
+	width: 32%;
+	text-align: center;
+}
+
+.SR1Column2 {
+	width: 68%;
+	text-align: center;
+}
+
+/*============================================
+// View Forum Page column dimensions
+============================================*/
+.VForumT1 {
+	text-align: left;	
+}
+
+.VForumT2Column1, .VForumR1Column1 {
+	width: 34px;
+	text-align: center;
+}
+
+.VForumT2Column2, .VForumR1Column2 {
+	width: 34px;
+	text-align: center;
+}
+
+.VForumT2Column3, .VForumR1Column3 {
+	width: 306px;
+	text-align: left;
+}
+
+.VForumT2Column4, .VForumR1Column4 {
+	width: 40px;
+	text-align: left;
+}
+
+.VForumT2Column2-4, .VForumR1Column2-4 {
+	width: 346px;
+	text-align: left;
+}
+
+.VForumT2Column5, .VForumR1Column5 {
+	width: 40px;
+	text-align: center; 
+}
+
+.VForumT2Column6, .VForumR1Column6 {
+	width: 40px;
+	text-align: center;
+}
+
+.VForumT2Column7, .VForumR1Column7 {
+	width: 140px;
+	text-align: left;
+}
+
+/*============================================
+// View Topic Page column dimensions
+============================================*/
+.VTopicT1 {
+	text-align: left;	
+}
+
+.VTopicT2divider {
+	width: 100%;
+	display: none;
+	padding: 0px;
+	height: 2px;
+}
+
+.VTopicT2Column1, .VTopicR1Column1 {
+	width: 25%;
+	text-align: center;
+}
+
+
+.VTopicT2Column2, .VTopicR1Column2 {
+	width: 50%;
+	text-align: left;
+}
+
+.VTopicR1Column2-3 {
+	width: 75%;
+	text-align: left;
+}
+
+.VTopicT2Column3, .VTopicR1Column3 {
+	width: 25%;
+	text-align: center;
+}
+
+img.uparrow {
+	border: 0px; 
+	width: 20px; 
+	height: 20px;
+}

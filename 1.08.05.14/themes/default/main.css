@@ -1,0 +1,420 @@
+/*------------------------------------------------------------------
+| General page style. The scroll bar colors only visible in IE5.5+ |
+------------------------------------------------------------------*/
+html, body {
+	background: #e6e4cf url('images/bg.png') repeat-x;
+	font-family: Arial, Helvetica, Tahoma, Verdana, sans-serif;
+	font-size: 12px;
+	line-height: 16px;
+	color: #000;
+	height: auto !important; /* real browsers */
+	height: 100%; /* IE6: treaded as min-height*/
+	min-height:100%; /* real browsers */
+	padding: 0px;
+	margin: 0px;
+	text-align: left;
+}
+
+/*==============================
+	Layout 
+==============================*/
+div#container {
+	margin: 0px; 
+	padding: 0px;
+	width: 100%;
+	height: auto !important; /* real browsers */
+	height: 100%; /* IE6: treaded as min-height*/
+	min-height:100%; /* real browsers */
+	text-align: left;
+}
+
+div#page {
+	background: #fff;
+	margin: 0px auto; /* center, not in IE5 */
+	padding: 0px;
+	width: 900px;
+	height: auto !important; /* real browsers */
+	height: 100%; /* IE6: treaded as min-height*/
+	min-height:100%; /* real browsers */
+	text-align: left;
+	border-left: 3px solid #23323f;
+	border-right: 3px solid #23323f;
+}
+
+div#header {
+	background: #364b5c url('images/header-logo.png');
+	width: 890px;
+	height: 100px;
+	margin: 0px;
+	padding: 0px 5px;
+	text-align: left;
+	clear: both;
+}
+
+div#content {
+	background: #fff;
+	color: #554d49;
+	float: left;
+	width: 900px;
+	padding: 0px;
+	clear: both;
+	border-top: 10px solid #23323f;
+}
+
+div#left-col {
+	width: 630px;
+	padding: 5px 5px 10px 5px;
+	float: left;
+}
+
+div#right-col {
+	width: 250px;
+	padding: 5px 5px 10px 5px;
+	float: left;
+}
+
+
+div#footer {
+	height: 30px;
+	width: 890px;
+	background: #364b5c;
+	color: #fff;
+	/*font-weight: bold;*/
+	padding: 5px;
+	margin: 0px;
+	border-top: 10px solid #23323f;
+	clear: both;
+}
+
+#breadcrumbs {
+	text-align: left;
+}
+
+/*  images ----------------------------------------------------*/
+img {
+	border: 0px none;
+	margin: 0px;
+	padding: 0px;
+}
+
+/*==============================
+	Navigation 
+==============================*/
+#top-nav {
+	background: #fff url('images/navbg.png');
+	height: 30px;
+	line-height: 30px;
+}
+
+#nav, #nav ul {
+	width: 890px;
+	list-style: none;
+	font-weight: bold;
+	padding: 0px 5px 0px 5px;
+	margin: 0px;
+}
+
+#nav li {
+	float: left;
+}
+
+#nav a {
+	display: block;
+	font-weight: bold;
+	color: #fff;
+	text-decoration: none;
+	vertical-align: middle;
+	line-height: 28px;
+	padding: 1px 20px 1px 20px;
+}
+
+#nav li:hover, #nav li.sfhover {
+	background: url('images/navbg-over.png');
+}
+
+#nav a:hover, #nav li.sfhover {
+	color: #fff;
+}
+
+
+.title1 { 
+	border-left:0px none; 
+	border-right:0px none; 
+	background: #000 url('images/titlegrad.gif');
+	color: #fff;
+	height:27px;
+	line-height:27px; 
+	font-weight:bold; 
+	font-size:10px; 
+	border-top:1px solid #656B78; 
+	border-bottom:1px solid #656B78; 
+	padding-left:5px; 
+	padding-right:5px
+}
+
+.PVPT2Column2, .row1 { 
+	background: #edebd5;
+	color: #0f0f0f;
+}
+.row2 { 
+	background: #D8D5B4;
+	color: #0f0f0f;
+}
+
+.PVPT2Column1, .title2 {
+	background: #364b5c;
+	color: #fff;
+}
+
+.PVPT2Column1 a:link, .PVPT2Column1 a:active, .PVPT2Column1 a:visited, .title2 a:link, .title2 a:active, .title2 a:visited {
+	color: #fff;
+	text-decoration: underline;
+}
+
+.PVPT2Column1 a:hover, .title2 a:hover {
+	text-decoration: none;
+}
+
+.menu { 
+	border:1px solid #000000;
+	background-color:#3f82ac;
+	color: #000000;
+}
+
+h3.forum_title {
+	color: #000;
+}
+
+.highlight {
+	color: #fff;
+	font-weight: bold;
+	background: red;
+}
+
+
+/*---------------------------------------
+| General font families for common tags |
+---------------------------------------*/
+font, th, td, p {
+  font-family: Lucida Sans Unicode,Lucida Sans,Tahoma,Helvetica,Arial; 
+}
+a:link, a:active, a:visited {
+  text-decoration: none;
+  color : #85bd06; 
+}
+a:hover	{
+  text-decoration: underline;
+  color : #85bd06; 
+}
+a.newstylelink {
+  text-decoration: none;
+  color : #3f82ac;
+}
+a.newstylelink:hover {
+  text-decoration: underline;
+  color : #85bd06; 
+}
+a.stats:link, a.stats:active, a.stats:visited {
+  text-decoration: none;
+  color : #85bd06; 
+}
+a.stats:hover	{
+  text-decoration: underline;
+  color : #85bd06; 
+}
+hr {
+	width: 300px;
+	color: #0d405b;
+}
+
+input, textarea, select {
+  color: #707070;
+  font: normal 11px Lucida Sans Unicode,Lucida Sans,Tahoma,Helvetica,Arial;
+  border-color: #707070; 
+}
+
+input.post, textarea.post, select {
+  background-color: #949494; 
+}
+select {
+  background-color: #fff; 
+}
+  
+input {
+  text-indent: 2px; 
+}
+
+.textarea,
+.searchinput,
+.button,
+.gobutton {
+	background: #FFF;
+	border: 1px solid #707070;
+	color: #000;
+	font-family: Verdana, Helvetica, Sans-Serif;
+	font-size: 11px;
+	padding: 2px;
+	vertical-align: middle;
+ }
+ 
+input.button {
+	border: 1px solid #ddd;
+	background: #f9f9f9;
+	font-family: Tahoma, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 12px;
+	color: #000;
+	padding: 2px 10px !important;
+	padding: 2px 0px;
+	margin: 0;
+}
+
+input.button:hover { 
+	border: 1px solid #65757c; 
+	background: #05386B;
+	color: #fff;
+}
+
+.gobutton{
+	background: transparent;
+	border: 0;
+	color: #85bd06;
+	margin: 0;
+	vertical-align: middle;
+}
+
+
+/* 
+ * ========================================
+ * All New Styles 
+ * ========================================
+ */
+
+.UOnlineForumBorder{ /* this will affect the outlining border of all the tables and boxes through-out the skin. */
+	background: #fff;
+	text-align: left;
+}
+
+.UOnlineForumBorder h3{
+	background: #000 url('images/titlegrad.gif');
+	border: 1px solid #FFF;
+	border-bottom: 0px;
+	color: #FFF; 
+	font-size: 12px;
+	font-weight: bold; 
+	margin: 0;
+	padding: 2px;
+	text-align: left;
+}
+
+.UOnlineForumBorder div.title {
+	background: #364b5c;
+	border: 1px solid #FFF;
+	color: #fff;
+	font-size: 12px;
+	font-weight: bold;
+	margin: 0;
+	padding: 3px;
+	text-align: left;
+}
+
+.UOnlineForumBorder p{
+	background: #F9F9F9;
+	border: 1px solid #CCC;
+	margin: 5px;
+	padding: 10px;
+	text-align: left;
+}
+
+.lastvisit{ /* this will affect the outlining border of all the tables and boxes through-out the skin. */
+	background: #FFF; 
+	border: 1px solid #000;
+	padding: 5px;
+	margin: 0; 
+	margin-left: auto; 
+	margin-right: auto;
+	width: 600px;
+}
+
+.lastvisit p{
+	background: #F9F9F9;
+	border: 1px solid #CCC;
+	margin: 0px;
+	padding: 10px;
+	text-align: left;
+}
+
+
+#footer{
+	background: #545454;
+	color: #b6b6b6; 
+	font-size: 10px;
+}
+
+/*---------------------------------------
+// PM Box Styles
+---------------------------------------*/
+#pmcontent {
+	background: #FFF;
+	padding: 2px;
+	text-align: center;
+}
+
+#pmcontent p {
+	background: #F9F9F9;
+	border: 1px solid #CCC;
+	margin: 0px;
+	padding: 10px;
+	text-align: center;
+}
+
+#pmcontent a:link, #pmcontent a:active, #pmcontent a:visited {
+  text-decoration: none;
+  color : #85bd06; 
+}
+
+#pmcontent a:hover	{
+  text-decoration: underline;
+  color : #85bd06; 
+}
+
+
+/*============================================
+// Profile Page styles
+============================================*/
+.PVPT1 {
+	font-weight: bold;	
+}
+
+.PVPT2Column1 {
+	font-weight: bold;	
+}
+
+.PChangeInfoT1 {
+	font-weight: bold;	
+}
+
+.PChangeInfoT2Column1 {
+	font-weight: bold;	
+}
+
+.PChangeInfoT2Notification {
+	font-style: italic;
+}
+
+/*============================================
+// Search page styles
+============================================*/
+.SResultsT2Column1, .SResultsT2Column2, .SResultsT2Column3, .SResultsT2Column4, .SResultsT2Column5, .SResultsT2Column6, .SResultsT2Column7 {
+	font-weight: bold;
+}
+
+/*============================================
+// Join page styles
+============================================*/
+.JT2Column1 {
+	font-weight: bold;
+}
+
+
+
